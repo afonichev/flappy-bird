@@ -4,7 +4,7 @@ import helper from '../../helper';
 export default class GamePlay extends Scene {
 
     /**
-     * Конструктор сцены меню.
+     * Конструктор сцены геймплея.
      */
     constructor() {
 
@@ -141,10 +141,10 @@ export default class GamePlay extends Scene {
     }
 
     /**
-     * Прелоадер сцены меню.
+     * Прелоадер сцены геймплея.
      * 
      * @param { Game } game Класс игры.
-     * @param { object } props Свойства сцены меню.
+     * @param { object } props Свойства сцены геймплея.
      */
     preloader(game, props) {
 
@@ -260,7 +260,7 @@ export default class GamePlay extends Scene {
     }
 
     /**
-     * Рендер сцены меню.
+     * Рендер сцены геймплея.
      * 
      * @param { number } time Время запланированной анимации.
      */

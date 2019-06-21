@@ -3,7 +3,7 @@ import { Scene, Screen, Game } from '../../engine';
 export default class GameOver extends Scene {
 
     /**
-     * Конструктор сцены меню.
+     * Конструктор сцены конца игры.
      */
     constructor() {
 
@@ -68,10 +68,10 @@ export default class GameOver extends Scene {
     }
 
     /**
-     * Прелоадер сцены меню.
+     * Прелоадер сцены конца игры.
      * 
      * @param { Game } game Класс игры.
-     * @param { object } props Свойства сцены меню.
+     * @param { object } props Свойства сцены конца игры.
      */
     preloader(game, props) {
 
@@ -108,7 +108,7 @@ export default class GameOver extends Scene {
     }
 
     /**
-     * Рендер сцены меню.
+     * Рендер сцены конца игры.
      * 
      * @param { number } time Время запланированной анимации.
      */
@@ -163,12 +163,6 @@ export default class GameOver extends Scene {
                     context.fillStyle = '#000000';
                     
                     context.fillRect(0, 0, screen.width, screen.height);
-
-                    
-                    
-                    
-
-
 
                     // фон
 

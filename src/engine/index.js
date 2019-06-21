@@ -165,7 +165,7 @@ export class Game {
     }
 
     /**
-     * Довить сцену.
+     * Добавить сцену.
      * 
      * @param { string } name Имя сцены.
      * @param { Scene } scene Сцена.
@@ -250,8 +250,8 @@ export class Game {
         document.addEventListener('keydown', e => this.keydownEvent = e, false);
 
         document.addEventListener('keypress', e => this.keypressEvent = e, false);
-
-		document.addEventListener('keyup', e => this.keyup = e, false);
+        
+        document.addEventListener('keyup', e => this.keyup = e, false);
 
         document.addEventListener('mousedown', e => this.mousedownEvent = e, false);
         
