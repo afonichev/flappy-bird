@@ -1,0 +1,20 @@
+{
+    "name": "flappy-bird",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "main": "main.js",
+    "scripts": {
+        "start": "webpack-dev-server --config \"webpack.dev.js\"",
+        "build": "webpack --config \"webpack.prod.js\""
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.5",
+        "@babel/preset-env": "^7.4.5",
+        "babel-loader": "^8.0.6",
+        "webpack": "^4.34.0",
+        "webpack-cli": "^3.3.4",
+        "webpack-dev-server": "^3.7.1"
+    }
+}
